@@ -12,6 +12,6 @@ code, containing the code of the tutorials;
 results, containing the output of the tutorials in html and pdf files.
 
 
-We can import the output from the server to our computer via scp (on Mac computers at least); ex. code to import the quality_control files on our current locale directory:
+We can import the output from the server to our computer via scp (on Mac computers at least); ex. code to import the quality_control output files in our current local directory:
 
 scp -r  USER_NAME@gdcsrv1.ethz.ch:ex_1/quality_control .
