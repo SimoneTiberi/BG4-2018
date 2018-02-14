@@ -8,4 +8,4 @@ Slides, containing the slides in pdf format;
 
 code, containing the code of the tutorials;
 
-solutions, containing the output of the tutorials in html and pdf files.
+results, containing the output of the tutorials in html and pdf files.
