@@ -39,13 +39,13 @@ mkdir ex_1/quality_control
 
 cd ex_1/quality_control
  fastqc -o . $fastq_files/subset_SRR1272186_1.fastq
-#fastqc -o . $fastq_files/subset_SRR1272186_2.fastq
-#fastqc -o . $fastq_files/subset_SRR1272188_1.fastq
-#fastqc -o . $fastq_files/subset_SRR1272188_2.fastq
-#fastqc -o . $fastq_files/subset_SRR1272190_1.fastq
-#fastqc -o . $fastq_files/subset_SRR1272190_2.fastq
-#fastqc -o . $fastq_files/subset_SRR1272191_1.fastq
-#fastqc -o . $fastq_files/subset_SRR1272191_2.fastq
+fastqc -o . $fastq_files/subset_SRR1272186_2.fastq
+fastqc -o . $fastq_files/subset_SRR1272188_1.fastq
+fastqc -o . $fastq_files/subset_SRR1272188_2.fastq
+fastqc -o . $fastq_files/subset_SRR1272190_1.fastq
+fastqc -o . $fastq_files/subset_SRR1272190_2.fastq
+fastqc -o . $fastq_files/subset_SRR1272191_1.fastq
+fastqc -o . $fastq_files/subset_SRR1272191_2.fastq
 ls
 # for each fastq file, an html and a zip output files are created.
 
