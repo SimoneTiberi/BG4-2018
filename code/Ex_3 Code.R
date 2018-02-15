@@ -81,7 +81,8 @@ d
 # it takes a long time if computed on all genes.
 common_precision(d)
 head(genewise_precision(d))
-# it computes a common precision for all genes and a gene-specific precision.
+# it computes a common precision for all genes and a (moderated) gene-specific precision.
+# it follows a similar approach to edgeR, DESeq and DESeq2 in moderating the dispersion estimates.
 
 plotPrecision(d)
 
