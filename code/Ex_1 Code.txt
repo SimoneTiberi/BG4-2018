@@ -38,7 +38,7 @@ mkdir ex_1/quality_control
 # look at the first .html generated while waiting for the output.
 
 cd ex_1/quality_control
- fastqc -o . $fastq_files/subset_SRR1272186_1.fastq
+fastqc -o . $fastq_files/subset_SRR1272186_1.fastq
 fastqc -o . $fastq_files/subset_SRR1272186_2.fastq
 fastqc -o . $fastq_files/subset_SRR1272188_1.fastq
 fastqc -o . $fastq_files/subset_SRR1272188_2.fastq
