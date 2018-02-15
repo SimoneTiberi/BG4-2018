@@ -177,8 +177,6 @@ res_dds
 # Wald test p-value: group B vs A 
 # DataFrame with 15221 rows and 6 columns
 
-resultsNames(res_dds)
-
 # Moderation of log2 fold change (FC)
 # "In version 1.16 and higher, we have split the moderation of log2 fold changes into a separate function, lfcShrink"
 res_dds <- lfcShrink(dds, coef=2)
