@@ -88,6 +88,12 @@ pdf("clustering.pdf")
 heatmap.2(highly_variable_lcpm, trace="none", main="Top 500 most variable genes across samples")
 dev.off()
 
+pdf("MDS.pdf")
+# Multidimensional scaling (MDS) plot:
+plotMDS(y, col=c(rep("red",3), rep("blue", 4)))
+# remember that MDS (and PCA) plots are useful yet partial representations of the data.
+dev.off()
+
 # samples are clustered on the top (columns)
 # genes are clustered on the side (rows)
 # useful plot to see 
@@ -135,10 +141,6 @@ topTags(lrt)
 topTags(lrt, sort.by="logFC")
 
 pdf("edgeR.pdf")
-# Multidimensional scaling (MDS) plot:
-plotMDS(y, col=c(rep("red",3), rep("blue", 4)))
-# remember that MDS (and PCA) plots are useful yet partial representations of the data.
-
 # plot biological coefficient of variation vs log(CPM), where CPM = Counts per million
 plotBCV(y)
 
