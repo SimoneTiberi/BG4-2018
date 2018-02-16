@@ -124,7 +124,7 @@ y <- estimateDisp(y, design)
 y$common.dispersion
 [1] 0.03801511
 # individual dispersion estimates:
-$tagwise.dispersion
+y$tagwise.dispersion
 [1] 0.03041017 0.76230681 0.22885874 0.02265202 0.01817355 ... 15216 more elements ...
 # moderated dispersion estimates:
 y$trended.dispersion
